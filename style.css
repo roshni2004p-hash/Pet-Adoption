@@ -1,0 +1,86 @@
+body {
+font-family: 'Poppins', sans-serif;
+margin: 0;
+background: #fff8f5;
+color: #333;
+}
+header {
+background: #ff8fab;
+color: white;
+text-align: center;
+padding: 15px 0;
+}
+15
+nav a {
+color: white;
+text-decoration: none;
+margin: 0 15px;
+font-weight: bold;
+}
+nav a:hover {
+text-decoration: underline;
+}
+.hero {
+text-align: center;
+padding: 50px;
+background: #ffe5ec;
+}
+.btn {
+background: #ff5d8f;
+color: white;
+16
+padding: 10px 20px;
+border-radius: 20px;
+text-decoration: none;
+display: inline-block;
+margin-top: 15px;
+}
+.btn:hover {
+background: #ff2d55;
+}
+.pets {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px;
+padding: 30px;
+}
+.pet-card {
+17
+background: white;
+border-radius: 15px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+width: 250px;
+text-align: center;
+padding: 15px;
+}
+.pet-card img {
+width: 100%;
+border-radius: 15px;
+}
+.form-container {
+max-width: 400px;
+margin: 40px auto;
+background: white;
+padding: 25px;
+border-radius: 15px;
+box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+18
+text-align: center;
+}
+input, textarea {
+width: 90%;
+padding: 10px;
+margin: 10px 0;
+border-radius: 10px;
+border: 1px solid #ccc;
+}
+footer {
+background: #ff8fab;
+color: white;
+text-align: center;
+padding: 10px 0;
+position: relative;
+bottom: 0;
+width: 100%;
+}
